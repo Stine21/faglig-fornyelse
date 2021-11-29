@@ -6,7 +6,7 @@ export default function People() {
         <Layout>
         <div className={styles.people}>
             <h2>People</h2>
-            <h3>Projects and websites I've Created</h3>
+            <h3>Studio Ghibli characters from the movies</h3>
         </div>
         </Layout>
     )
