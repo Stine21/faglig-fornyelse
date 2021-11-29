@@ -4,17 +4,13 @@
 
 1. Download npm i -g gatsby-cli i en terminal, som gør så du kan bruge Gatsby globalt.
 
-2. For at få Gatsby op og kører hurtigere kan man clone Gatsby default starter respository.
+2. For at få Gatsby op og kører hurtigere kan man clone gatsby-starter-hello-world fra gatsbyjs.com.
 
-3. Når du har clonet den skal man kører npm install i terminalen og efterfølgende gatsby develop, som vil lave en fuld aktiv Gatsby app der kører på localhost
+4. Når du har clonet den skal man ind i den nye mappe, jeg kaldte min for faglig-fornyelse.
 
+5. Så skriver man cd faglig-fornyelse i terminalen også code . også i terminalen.
 
-<h2>Filer:</h2>
+6. For at se siden i en browser skal du i terminalen skrive "gatsby develop" også vil den starte en localhost:8000 med mindre noget allerede kører på den server.
 
-Når du har gjort alt det, får du blandt andet 3 mapper inde i src mappen som er:
-
-1. components 
-2. images
-3. pages
 
 
