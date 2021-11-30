@@ -4,10 +4,11 @@ import { useEffect, useState } from 'react';
 import Layout from '../../components/Layout'
 import * as styles from '../../styles/people.module.css'
 import { Link } from 'gatsby';
+import PeopleCard from '../../components/PeopleCard';
 
 
 
-export default function People({id}) {
+export default function People() {
 
     const [people, setPeople] = useState();
 
@@ -23,11 +24,11 @@ export default function People({id}) {
             <h2>People</h2>
             <h3>Studio Ghibli characters from the movies</h3>
             <div>
-                {people?.map(people => (
-                    <Link key={id} to={`/people/peopledetails?peopleId=${id}`}>
-                        <h2>{people.name}</h2>
-                    </Link>
-                ))}
+            {people?.map(people => (
+                <PeopleCard
+                id={people.id}
+                name={people.name}/>
+                 ))}
             </div>
         </div>
         </Layout>

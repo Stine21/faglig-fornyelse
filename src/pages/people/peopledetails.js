@@ -10,13 +10,13 @@ export default function Peopledetails({ location }) {
     
     const [people, setPeople] = useState();
 
-    useEffect(() => {
+  useEffect(() => {
         axios(`https://ghibliapi.herokuapp.com/people/${people_id}`)
         .then(result => {     
             setPeople(result.data);
         })
     }, [people_id]);
-
+    
     return !people? (<h1>Loading</h1>) : (
         <Layout>
         <div>
