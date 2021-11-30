@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
 }
 p{
-    margin: 16px auto;
+   
     line-height: 1.5em;
 }
 /* layout & nav */
@@ -41,6 +41,7 @@ p{
   nav a:hover {
     border-color: white;
   }
+
   footer p{
     text-align: center;
     color: #bbb;

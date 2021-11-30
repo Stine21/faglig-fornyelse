@@ -13,3 +13,13 @@
       height: 400px;
       justify-content: center;
   }
+  .movie > div{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 700px;
+  }
+  .movie > div > div{    
+    width: 700px;
+    text-align: left;
+  }

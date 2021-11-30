@@ -3,7 +3,6 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Layout from '../../components/Layout'
 import * as styles from '../../styles/people.module.css'
-import { Link } from 'gatsby';
 import PeopleCard from '../../components/PeopleCard';
 
 
@@ -25,9 +24,12 @@ export default function People() {
             <h3>Studio Ghibli characters from the movies</h3>
             <div>
             {people?.map(people => (
+                <div>
                 <PeopleCard
                 id={people.id}
-                name={people.name}/>
+                name={people.name}
+                />
+                </div>
                  ))}
             </div>
         </div>

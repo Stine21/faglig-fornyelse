@@ -1,0 +1,15 @@
+.peopledetails {
+    text-align: center;
+  }
+  .peopledetails > h2 {
+    font-size: 3em;
+    margin-top: 80px;
+  }
+  .peopledetails > h3 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  .peopledetails > div{
+    display: flex;
+    justify-content: space-evenly;
+  }

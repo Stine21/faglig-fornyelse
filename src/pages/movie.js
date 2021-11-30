@@ -21,7 +21,17 @@ export default function Movie({ location }) {
         <Layout>
         <div className={styles.movie}>
             <h1>{movie.title}</h1>
-            <img src={movie.image} alt="" />
+            <img src={movie.movie_banner} alt="" />
+            <div className="movie_titles">
+                <h2>{movie.original_title}</h2>
+                <h2>{movie.original_title_romanised}</h2>
+            </div>
+            <div>
+                <div>
+                 <p>{movie.description}</p>
+                 </div>
+            </div>
+           
         </div>
         </Layout>
     )
