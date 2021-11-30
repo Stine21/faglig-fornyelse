@@ -6,9 +6,17 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/src/notes/`
+      }
+    }
+  ],
   siteMetadata: {
-    title: 'Ghibli',
+    title: 'Studio Ghibli',
     description: 'Studio Ghibli movie site',
     copyright: 'This website is copyright 2021 Ghibli'
   }
