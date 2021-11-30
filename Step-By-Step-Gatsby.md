@@ -82,5 +82,3 @@
 9. Man tilføjer så modulet ved at tilføje det til et tag ved at skrive: classname={styles.header}
 
 10. Så kan man så også lave et css module til movie siden og people siden, på samme måde som før, bare med deres navne så styles.movies og styles.people.
-
-
